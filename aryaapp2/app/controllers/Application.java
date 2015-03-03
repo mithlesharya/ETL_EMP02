@@ -11,4 +11,7 @@ public class Application extends Controller {
         return ok(index.render("Your new application is ready."));
     }
 
+    public static Result home1() {
+        return ok(home1.render("mu new application method"));
+    }
 }
